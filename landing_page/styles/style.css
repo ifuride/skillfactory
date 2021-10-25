@@ -383,17 +383,29 @@ h4 {
     cursor: pointer;
     margin-right: 8px;
     margin-left: 8px;
-    margin-block-start: 80px;
+}
+
+.carousel {
+    width: 220px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
 }
 
 @media screen and (max-width: 375px) {
-    .caurousel {
+    .carousel {
         display: none;
     }
 }
 
 .dot:hover {
     background: white;
+}
+
+.dot-container {
+    display: flex;
+    align-items: center;
 }
 
 .control {
@@ -546,13 +558,13 @@ hr {
     }
 }
 
-.left-arrow {
-    transform: translate(-11px, -6px);
-}
+/*.left-arrow {
+    transform: translate(-19px, 2px);
+}*/
 
-.right-arrow {
-    transform: translate(11px, -6px);
-}
+/*.right-arrow {
+    transform: translate(19px, 2px);
+}*/
 
 .form-one {
     vertical-align: bottom;
