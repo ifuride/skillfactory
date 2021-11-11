@@ -1,2 +1,3 @@
 //Записать в переменную случайное целое число в диапазоне [0; 100]. Используйте объект Math.
-console.log(Math.floor((Math.random() * 101)));
+let a = Math.floor(Math.random() * 101);
+console.log(a);
