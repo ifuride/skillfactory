@@ -9,4 +9,4 @@ let cities = new Map([
     ]
 );
 for (let [key, value] of cities) {
-    console.log(`Ключ - ${key}, значение ${value}`);}
+    console.log(`Ключ - ${key}, значение ${value}`)}
