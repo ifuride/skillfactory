@@ -16,4 +16,3 @@ const student = {
 };
 
 logOfAllKeysAndProperties(student);
-console.log("");
